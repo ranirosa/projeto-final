@@ -1,0 +1,38 @@
+{% extends "admin/change_list.html" %}
+{% load static %}
+{% block content %}
+
+<div>
+  <canvas id="myChart" height="50"></canvas>
+</div>
+
+{{ block.super }}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    var my_data = []
+    fetch("/pf/supplies/order/chart_data/").then(response => {
+      response.json().then(response_data => {
+        const data = {
+          labels: response_data.labels,
+          datasets: [{
+            label: 'My Sales',
+            backgroundColor: 'rgb(255, 157, 255)',
+            borderColor: 'rgb(255, 157, 255)',
+            data: response_data.data,
+          }]
+        };
+      
+        const config = {
+          type: 'line',
+          data: data,
+          options: {}
+        };
+
+        const myChart = new Chart(
+          document.getElementById('myChart'),
+          config
+        );
+      })
+    })
+</script>
+{% endblock %}

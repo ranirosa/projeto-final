@@ -1,0 +1,355 @@
+[
+    {
+        "model": "admin_interface.theme",
+        "pk": 2,
+        "fields": {
+            "name": "PROJETO FINAL",
+            "active": true,
+            "title": "PROJETO FINAL",
+            "title_color": "#0084F4",
+            "title_visible": true,
+            "logo": "",
+            "logo_color": "#000000",
+            "logo_max_width": 400,
+            "logo_max_height": 100,
+            "logo_visible": false,
+            "favicon": "",
+            "env_name": "",
+            "env_color": "#E74C3C",
+            "env_visible_in_header": false,
+            "env_visible_in_favicon": false,
+            "language_chooser_active": true,
+            "language_chooser_display": "code",
+            "css_header_background_color": "#FFFFFF",
+            "css_header_text_color": "#0084F4",
+            "css_header_link_color": "#000000",
+            "css_header_link_hover_color": "#B2B2B2",
+            "css_module_background_color": "#B2B2B2",
+            "css_module_background_selected_color": "#C9E7F4",
+            "css_module_text_color": "#000000",
+            "css_module_link_color": "#FFFFFF",
+            "css_module_link_selected_color": "#FFFFFF",
+            "css_module_link_hover_color": "#000000",
+            "css_module_rounded_corners": true,
+            "css_generic_link_color": "#0084F4",
+            "css_generic_link_hover_color": "#4DB1F4",
+            "css_save_button_background_color": "#0084F4",
+            "css_save_button_background_hover_color": "#4DB1F4",
+            "css_save_button_text_color": "#FFFFFF",
+            "css_delete_button_background_color": "#0084F4",
+            "css_delete_button_background_hover_color": "#4DB1F4",
+            "css_delete_button_text_color": "#FFFFFF",
+            "related_modal_active": true,
+            "related_modal_background_color": "#000000",
+            "related_modal_background_opacity": "0.3",
+            "related_modal_rounded_corners": true,
+            "related_modal_close_button_visible": true,
+            "list_filter_dropdown": true,
+            "list_filter_sticky": true,
+            "foldable_apps": true,
+            "recent_actions_visible": true,
+            "form_submit_sticky": false,
+            "form_pagination_sticky": false
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 1,
+        "fields": {
+            "description": "Computador Desktop Gaming",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "550.00",
+            "discount": 0,
+            "tax": 23,
+            "section": "computadores",
+            "created_at": "2022-01-31T00:14:29.454Z",
+            "updated_at": "2022-01-31T00:14:29.454Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 2,
+        "fields": {
+            "description": "Portátil Asus 16GB RAM",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "1000.00",
+            "discount": 0,
+            "tax": 23,
+            "section": "portáteis",
+            "created_at": "2022-01-31T00:16:51.390Z",
+            "updated_at": "2022-01-31T00:16:51.390Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 3,
+        "fields": {
+            "description": "Portátil LeNovo 8GB RAM",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "800.00",
+            "discount": 0,
+            "tax": 23,
+            "section": "portáteis",
+            "created_at": "2022-01-31T00:17:19.953Z",
+            "updated_at": "2022-01-31T00:17:19.953Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 4,
+        "fields": {
+            "description": "Portátil LG 16GB RAM",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "1200.00",
+            "discount": 0,
+            "tax": 23,
+            "section": "portáteis",
+            "created_at": "2022-01-31T00:17:45.078Z",
+            "updated_at": "2022-01-31T00:17:45.078Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 5,
+        "fields": {
+            "description": "Rato Laser Logitech",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "18.00",
+            "discount": 0,
+            "tax": 23,
+            "section": "periféricos",
+            "created_at": "2022-01-31T00:18:30.045Z",
+            "updated_at": "2022-01-31T00:18:30.045Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 6,
+        "fields": {
+            "description": "Router Xiaomi Mi Alo",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "70.00",
+            "discount": 10,
+            "tax": 23,
+            "section": "periféricos",
+            "created_at": "2022-01-31T00:19:26.169Z",
+            "updated_at": "2022-01-31T00:19:26.169Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 7,
+        "fields": {
+            "description": "Teclado Logitech MX",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "110.00",
+            "discount": 10,
+            "tax": 23,
+            "section": "periféricos",
+            "created_at": "2022-01-31T00:20:10.619Z",
+            "updated_at": "2022-01-31T00:20:10.619Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 8,
+        "fields": {
+            "description": "iPhone 13 Pro Max",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "1300.00",
+            "discount": 0,
+            "tax": 23,
+            "section": "telemóveis",
+            "created_at": "2022-01-31T00:21:19.415Z",
+            "updated_at": "2022-01-31T00:21:19.415Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 9,
+        "fields": {
+            "description": "Placa Gráfica Sapphire",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "860.00",
+            "discount": 0,
+            "tax": 23,
+            "section": "componentes",
+            "created_at": "2022-01-31T00:22:18.360Z",
+            "updated_at": "2022-01-31T00:22:18.360Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 10,
+        "fields": {
+            "description": "Processador AMD Ryzen",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "250.00",
+            "discount": 5,
+            "tax": 23,
+            "section": "componentes",
+            "created_at": "2022-01-31T00:22:50.611Z",
+            "updated_at": "2022-01-31T00:22:50.611Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 11,
+        "fields": {
+            "description": "Auriculares JBL",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "68.00",
+            "discount": 0,
+            "tax": 23,
+            "section": "acessórios",
+            "created_at": "2022-01-31T00:23:21.162Z",
+            "updated_at": "2022-01-31T00:23:21.162Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 12,
+        "fields": {
+            "description": "Auriculares Xiaomi Mi Airdots",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "89.00",
+            "discount": 15,
+            "tax": 23,
+            "section": "acessórios",
+            "created_at": "2022-01-31T00:23:59.708Z",
+            "updated_at": "2022-01-31T00:23:59.708Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 13,
+        "fields": {
+            "description": "Smartphone Lenovo Dual 5G",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "300.00",
+            "discount": 0,
+            "tax": 23,
+            "section": "telemóveis",
+            "created_at": "2022-01-31T00:24:31.838Z",
+            "updated_at": "2022-01-31T00:24:31.838Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 14,
+        "fields": {
+            "description": "Smartphone Samsung Galaxy M52 8GB RAM",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "400.00",
+            "discount": 10,
+            "tax": 23,
+            "section": "telemóveis",
+            "created_at": "2022-01-31T00:26:04.419Z",
+            "updated_at": "2022-01-31T00:26:04.419Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 15,
+        "fields": {
+            "description": "Smartphone Xiaomi Mi 11T",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "250.00",
+            "discount": 0,
+            "tax": 23,
+            "section": "telemóveis",
+            "created_at": "2022-01-31T00:26:35.491Z",
+            "updated_at": "2022-01-31T00:26:35.491Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 16,
+        "fields": {
+            "description": "Cabo HDMI 8K",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "25.00",
+            "discount": 0,
+            "tax": 23,
+            "section": "componentes",
+            "created_at": "2022-01-31T00:27:11.766Z",
+            "updated_at": "2022-01-31T00:27:11.766Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 17,
+        "fields": {
+            "description": "Mac Mini 8GB RAM",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "1150.00",
+            "discount": 0,
+            "tax": 23,
+            "section": "computadores",
+            "created_at": "2022-01-31T00:27:51.689Z",
+            "updated_at": "2022-01-31T00:27:51.689Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 18,
+        "fields": {
+            "description": "Memória RAM DDR5 Kingston",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "120.00",
+            "discount": 0,
+            "tax": 23,
+            "section": "componentes",
+            "created_at": "2022-01-31T00:28:27.646Z",
+            "updated_at": "2022-01-31T00:28:27.646Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 19,
+        "fields": {
+            "description": "Motherboard Micro-ATX MSI",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "65.00",
+            "discount": 0,
+            "tax": 23,
+            "section": "componentes",
+            "created_at": "2022-01-31T00:29:04.786Z",
+            "updated_at": "2022-01-31T00:29:12.819Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 20,
+        "fields": {
+            "description": "Apple iMac 8GB RAM",
+            "stock": 100,
+            "stock_limit": 100,
+            "price": "1060.00",
+            "discount": 10,
+            "tax": 23,
+            "section": "computadores",
+            "created_at": "2022-01-31T00:30:31.295Z",
+            "updated_at": "2022-01-31T00:30:31.295Z"
+        }
+    }
+]
